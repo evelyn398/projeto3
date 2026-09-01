@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffc8e8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.caixa-login{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 280px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1)
+}
+
+h2{
+    text-align: center;
+    margin-top: 0;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.link-esqueci{
+    display: block;
+    text-align: right;
+    margin: 10px 0;
+    font-size: 12px;
+    color: #cc007e;
+    text-decoration: none;
+}
+
+.link-esqueci:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #ff0062;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #0056b3;
+}
+
+.btn-menu{
+    display: block;
+    text-align: center;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.btn-menu:hover{
+    background-color: #111316;
+}
+
+.foto-perfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50;
+    object-fit:cover;
+
+}
+
+.info-usuario p {
+    font-size: 14px;
+    margin: 8px 0;
+    color: rgb(0, 0, 0);
+
+}
+
+.info-usuario a{
+    color: #101113;
+    text-decoration: none;
+}
+
+.info-usuario a:hover{
+    text-decoration: underline;
+}
+
+body.modo-escuro{
+    background-color:#101113
+    color:#ffffff
+}
+
+body.modo-escuro .caixa-login{
+    background-color: #1e1e1e;
+    box-shadow:  0 0 10px #rgba(255,255,255,0,0,5);
+}
+
+body_modo-escuro h2,
+body_modo-escuro p.
+body_modo-escuro label{
+    color: #4da3ff
+}
+
+body.fonte-grande {
+    font-size:10px;
+}
+body.fonte-grande h2{
+  font-size 20px;
+}
+
+body.fonte-grande p,
+body.fonte-grande label,
+body.fonte-grande.bnt-menu,
+body.fonte-grande button{
+   font-size:18px;
+}
+
